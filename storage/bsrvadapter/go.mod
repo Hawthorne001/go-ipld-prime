@@ -1,11 +1,11 @@
 module github.com/ipld/go-ipld-prime/storage/bsrvadapter
 
-go 1.21
+go 1.23
 
 require (
 	github.com/ipfs/boxo v0.16.0
 	github.com/ipfs/go-block-format v0.2.0
-	github.com/ipfs/go-cid v0.4.1
+	github.com/ipfs/go-cid v0.5.0
 )
 
 require (
@@ -34,7 +34,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.14.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
